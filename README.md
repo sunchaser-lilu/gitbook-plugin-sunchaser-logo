@@ -1,5 +1,4 @@
 # Logo plugin for GitBook
-===========================
 
 A gitbook plugin that inserts (url or file or base64) as a book logo into the navigation above the search input box.
 
