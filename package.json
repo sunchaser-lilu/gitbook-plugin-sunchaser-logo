@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-sunchaser-logo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A gitbook plugin that inserts (url or file or base64) as a book logo into the navigation above the search input box.",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,11 @@
         "type": "string",
         "default": "http://cdn.lilu.org.cn/sunchaser.png",
         "title": "Logo URL"
+      },
+      "redirectUrl": {
+        "type": "string",
+        "default": "/",
+        "title": "window.location.href"
       },
       "style": {
         "type": "string",
